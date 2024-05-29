@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
             showMessage("Network error. Please try again.", 'rgb(82, 0, 0)');
         };
 
-        login.open("POST", "http://localhost/IstisharyTalk/api/login");
+        login.open("POST", "http://localhost/IstisharyTalk/api/login/");
         login.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         login.send(`email=${encodeURIComponent(email)}&pass=${encodeURIComponent(pass)}`);
     };
