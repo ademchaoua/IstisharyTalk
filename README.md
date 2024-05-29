@@ -15,6 +15,8 @@ IstisharyTalk is a simple chat application that reads messages from a JSON file 
 1. **Clone the repository or download the ZIP file:**
    ```bash
    git clone https://github.com/ademchaoua/IstisharyTalk.git
+   ```
+   ```bash
    cd IstisharyTalk
    ```
 
@@ -51,9 +53,3 @@ Ensure that the `database` directory and the `msgs.json` file are writable by th
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```vbnet
-
-Feel free to adjust the `README.md` to better fit your project's specifics or to include additional information as needed.
-
-```
