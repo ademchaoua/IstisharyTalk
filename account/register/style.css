@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #444;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-form {
+    margin: auto;
+    text-align: center;
+    background: #98949444;
+    min-height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 50px rgb(49, 49, 49);
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.register-form h1 {
+    margin-top: 30px;
+}
+
+.email input, .pass input, .name input {
+    padding: 10px 30px 10px 10px ;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4444;
+    outline: none;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+
+.email input:focus, .pass input:focus, .name input:focus{
+    border-color: #444;
+}
+
+.submit-btn {
+    margin: 20px 0;
+    padding: 10px 50px;
+    border-radius: 5px;
+    border-style: none;
+    background: #444;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s
+}
+
+.submit-btn:hover {
+    background: #4444;
+    color: black;
+}
+.login {
+    font-size: 13px;
+    margin: 0;
+}
+
+.login a {
+    text-decoration: none;
+    color: aqua;
+    transition: 0.5s;
+}
+
+.login a:hover {
+    color: black;
+}
+
+#msg {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0.7;
+    display: none;
+}
+
+#msgError {
+    max-width: 200px;
+    margin: auto;
+    border-radius: 2px;
+    padding: 5px 20px;
+    animation-name: msgError;
+    animation-duration: 1s;
+    display: none;
+    margin-bottom: 20px;
+}
+
+@keyframes msgError {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

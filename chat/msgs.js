@@ -22,19 +22,11 @@ const msgs = document.getElementById('msgs');
                         console.log(message); // Log each message object to see its structure
                         const user = message.user; // Access the sender property
                         const msg = message.message; // Access the text property
-                        if(user == 'Duck1'){
-                            msgs.innerHTML += `
-                            <p style="color: red;">
-                                Sender: ${user} <br>
-                                <span style="color: white;">Message: ${msg}</span>
-                            </p>`;
-                        }else if(user == 'Duck2'){
-                            msgs.innerHTML += `
+                        msgs.innerHTML += `
                             <p style="color: tomato;">
                                 Sender: ${user} <br>
                                 <span style="color: white;">Message: ${msg}</span>
                             </p>`;
-                        }
                     });
                 })
                 .catch(error => {

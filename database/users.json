@@ -1,12 +1,16 @@
 {
     "users": [
         {
-            "email": "Duck2",
-            "password": "adem1230123"
+            "email": "fsgsdgfsdgsdf@gmail.cogfm",
+            "password": "gfsdgdfsg fgdsgsdf"
         },
         {
-            "email": "Duck1",
-            "password": "adem1230123"
+            "email": "fsgsdgfsdgsdf@gmail.com",
+            "password": "gfsdgdfsg fgdsgsdf"
+        },
+        {
+            "email": "fdasfdas@fdsafdas.fas",
+            "password": "fdas"
         }
     ]
 }
