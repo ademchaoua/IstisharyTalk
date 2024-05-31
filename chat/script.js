@@ -18,6 +18,7 @@ document.addEventListener(
                         deleteMessage();
                     }else if(response == 'user not login!'){
                         showMessage('you need login or register first', 'rgba(255, 0, 0, 0.163)');
+                        setTimeout(() => location.assign("http://localhost/IstisharyTalk/account/login"), 1000);
                     }else{
                         showMessage('There is error pls refresh page and try again', 'rgba(255, 0, 0, 0.163)');
                     }
