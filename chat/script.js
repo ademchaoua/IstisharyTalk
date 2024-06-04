@@ -5,7 +5,9 @@ document.addEventListener(
         let btn = document.getElementById('btn');
 
         document.getElementById('btn').onclick = () => {
+
             let msg = document.getElementById('msg').value;
+            document.getElementById('msg').value = '';
 
             if (!msg) {
                 showMessage('Pls enter message.', 'rgba(255, 0, 0, 0.163)');
